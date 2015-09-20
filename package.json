@@ -1,0 +1,18 @@
+{
+  "name": "atom-spec-runner",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "A package for running Atom specs using whatever testing framework you choose",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-spec-runner:run-specs"
+  },
+  "repository": "https://github.com/lee-dohm/atom-spec-runner",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.15 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
