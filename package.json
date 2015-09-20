@@ -14,5 +14,7 @@
     "atom": ">=1.0.15 <2.0.0"
   },
   "dependencies": {
+    "etch": ">=0.0",
+    "jasmine-core": "^2.3.4"
   }
 }
