@@ -2,7 +2,21 @@
 
 .atom-spec-runner {
   &.panel {
+    padding-right: 0.6em;
     width: 100%;
+  }
+
+  .close-icon {
+    text-align: right;
+
+    &::before {
+      font-family: 'Octicons Regular';
+      font-size: 12px;
+      width: 12px;
+      height: 12px;
+      content: '\f081';
+      -webkit-font-smoothing: antialiased;
+    }
   }
 
   .frame {
